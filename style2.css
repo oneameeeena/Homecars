@@ -1,0 +1,169 @@
+body{
+            margin: 0;
+            background: linear-gradient(135deg, #000000, #1f1d1d);
+           
+        }
+        .hero {
+            height: 100vh;
+            background: url('SFMotors SF7 suv EV body lines.gif') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5)
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .navbar-brand {
+            display: inline;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .our-products {
+	        text-align: center;
+	        padding: 20px;
+	        display: flex;
+	        flex-direction: row-reverse;
+	        margin: 32px;
+	        gap: 40px;
+	        justify-content: center;
+	        align-items: center;
+	        justify-content: space-between;
+	
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about, .services {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about img, .services img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .services .service {
+            width: 30%;
+            text-align: left;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #121212;
+            color: white;
+        }
+        .contact-section {
+            background: linear-gradient(#00000034,#e6e3e327);
+            backdrop-filter: blur(7px);
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(209, 206, 206, 0.1);
+        }
+        .contact-section h2 {
+            font-size: 28px;
+            color: #fffcfc;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .btn-contact {
+            background-color:  #032172;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        .btn-contact:hover {
+            background-color: #c0c0c4;
+            color: #080888;
+            text-transform: lowercase;
+        }
+        .gallery-container {
+            padding: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+    .gallery-item img,
+    .gallery-item video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .gallery-item video {
+      background: #000;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      background-color: #423e3e;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fffbfb;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+      color: #e0e0e0;
+    }

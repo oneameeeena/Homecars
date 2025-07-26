@@ -1,0 +1,143 @@
+body{
+            margin: 0;
+            background: linear-gradient(135deg, #000000, #1f1d1d);
+           
+        }
+        .hero {
+            height: 100vh;
+            background: url('SFMotors SF7 suv EV body lines.gif') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5)
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .navbar-brand {
+            display: inline;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .our-products {
+	        text-align: center;
+	        padding: 20px;
+	        display: flex;
+	        flex-direction: row-reverse;
+	        margin: 32px;
+	        gap: 40px;
+	        justify-content: center;
+	        align-items: center;
+	        justify-content: space-between;
+	
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about, .services {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.5s ease;
+        }
+
+        .about img, .services img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            display: grid;
+
+        }
+        .about img:hover{
+            transform: scale(1.05);
+        }
+
+        .services .service {
+            width: 30%;
+            text-align: left;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3px;
+            transition: transform 0.5s ease;
+        }
+        .gallery img:hover{
+            transform: scale(1.05);
+        }
+
+        .gallery img {
+            width: 200px;
+            border-radius: 10px;
+            
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #121212;
+            color: white;
+        }
+        .founder-card {
+            background: linear-gradient(#00000034,#e6e3e327);
+            transition: transform 0.3s, box-shadow 0.3s;
+            color: aliceblue;
+        }
+
+        .founder-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #a8a0a0;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+        .contact-card {
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+            color: aliceblue;
+            background: linear-gradient(#00000034,#e6e3e327);
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-bottom: 20px;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .contact-icon {
+            font-size: 1.5rem;
+            color: #adafb3;
+            margin-right: 10px;
+        }
+        .contact-icon ul:hover {
+            color: #033264;
+        }
